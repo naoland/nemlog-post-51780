@@ -10,6 +10,7 @@ const ccxt = require('ccxt');
 
     try {
         zaif();
+        zaif2();
         bitflyer();
         bitbank();
     } catch (e) {
@@ -73,3 +74,15 @@ async function bitbank() {
         console.log(e.message);
     }
 }
+
+// 例外が発生しても、この関数内では何もしない。上位の例外処理に任せる。
+async function zaif2() {
+    // zaif apiの機能を使えるようにします
+    const zaif = new ccxt.zaif();
+    // 通貨ペアを指定します
+    const pair = 'BTC/JPY';
+    // ティッカー情報を同期処理として取得します
+    const ticker = await zaif.fetchTicker(pair);
+    // ティッカー情報の中から現在価格を表示します
+    console.log(`zaif2 BTC 現在価格: ${ticker['last']} JPY`);
+};
