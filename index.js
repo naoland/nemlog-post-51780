@@ -10,9 +10,9 @@ const ccxt = require('ccxt');
 
     try {
         zaif();
-        zaif2();
         bitflyer();
         bitbank();
+        zaif2();
     } catch (e) {
         // 何らかのエラーが発生した場合は、以下のコードが実行されます
 
@@ -75,7 +75,7 @@ async function bitbank() {
     }
 }
 
-// 例外が発生しても、この関数内では何もしない。上位の例外処理に任せる。
+// 例外が発生しても、この関数内では何もしません。上位の例外処理に任せます。
 async function zaif2() {
     // zaif apiの機能を使えるようにします
     const zaif = new ccxt.zaif();
