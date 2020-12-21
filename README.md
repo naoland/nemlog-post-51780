@@ -1,3 +1,5 @@
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/naoland/nemlog-post-51780)
+
 # 簡単プログラミング！BTCの複数取引所の現在価格を表示しよう（Node.js編）
 
 ## はじめに
