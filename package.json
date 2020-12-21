@@ -1,0 +1,23 @@
+{
+  "name": "nemlog-post-51780",
+  "version": "1.0.0",
+  "description": "複数の取引所からBTCの現在価格を取得します",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naoland/nemlog-post-51780.git"
+  },
+  "keywords": ["ticker", "BTC", "zaif"],
+  "author": "naoland",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/naoland/nemlog-post-51780/issues"
+  },
+  "homepage": "https://github.com/naoland/nemlog-post-51780#readme",
+  "dependencies": {
+    "ccxt": "^1.38.63"
+  }
+}
