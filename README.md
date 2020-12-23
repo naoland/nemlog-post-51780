@@ -35,7 +35,7 @@ GIF動画の内容について簡単に説明します。
 
 https://github.com/naoland/nemlog-post-51780
 
-1. `Gitpd`というボタンか、下の方の ![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod) をクリックします。
+1. `Gitpod`というボタンか、下の方の ![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod) をクリックします。
 1. Gitpodのコンテナーが起動します。（起動中は画面中央にロゴが表示されています）
 1. コンテナーが起動するとワークスペースが表示されます。
 1. 必要なパッケージのインストールが行われます。
